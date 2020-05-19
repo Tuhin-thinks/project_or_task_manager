@@ -1,4 +1,4 @@
-# project_or_task_manager
+# PROJECT/TASK MANAGER
 Python Project To Manage Some Paid Projects For Freelancers Like Me.
 
 ## Features:
@@ -29,3 +29,5 @@ Python Project To Manage Some Paid Projects For Freelancers Like Me.
 - Complete database management using Sqlite3 (all basic and related commands are implemented)
 - Threading to manage large amount of data in the database.
 - Attractive modern looking application using CSS type of styling in PyQt5 (Qt Designer)
+## How Does the Opening Window Of The Window will Look Like?
+
