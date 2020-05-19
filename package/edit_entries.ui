@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>776</width>
+    <height>526</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>EDIT ENTRY</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QPushButton { 
+background-color:rgb(51, 153, 255); 
+border: 4px solid white;
+padding: 6px 10px;
+font: 75 12pt &quot;System&quot;;
+}
+#centralwidget{
+border: 2px solid cyan;
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(153, 245, 230, 255), stop:0.09 rgba(220, 246, 236, 255), stop:0.14 rgba(150, 239, 246, 255), stop:0.187702 rgba(73, 187, 241, 255), stop:0.25 rgba(40, 151, 232, 255), stop:0.32 rgba(243, 248, 224, 255), stop:0.385 rgba(162, 249, 213, 237), stop:0.47 rgba(109, 168, 162, 227), stop:0.58 rgba(186, 232, 191, 232), stop:0.65 rgba(255, 255, 255, 255), stop:0.75 rgba(46, 142, 222, 255), stop:0.805 rgba(117, 187, 218, 255), stop:0.86 rgba(175, 254, 231, 255), stop:0.925566 rgba(254, 236, 244, 255), stop:1 rgba(191, 230, 255, 255));
+}
+
+QPushButton:pressed{
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(153, 245, 230, 255), stop:0.09 rgba(220, 246, 236, 255), stop:0.14 rgba(150, 239, 246, 255), stop:0.187702 rgba(73, 187, 241, 255), stop:0.25 rgba(40, 151, 232, 255), stop:0.32 rgba(243, 248, 224, 255), stop:0.385 rgba(162, 249, 213, 237), stop:0.47 rgba(109, 168, 162, 227), stop:0.58 rgba(186, 232, 191, 232), stop:0.65 rgba(255, 255, 255, 255), stop:0.75 rgba(46, 142, 222, 255), stop:0.805 rgba(117, 187, 218, 255), stop:0.86 rgba(175, 254, 231, 255), stop:0.925566 rgba(254, 236, 244, 255), stop:1 rgba(191, 230, 255, 255));
+border: 3px solid white;
+padding: 6px 10px;
+font: 75 16pt &quot;System&quot;;
+}
+
+QTextEdit{
+border:2px dot-dot-dash;
+border-top-style: solid;
+border-color: blue;
+}
+
+QLineEdit{
+border: 2px solid grey;
+border-radius: 2px 2px;
+}
+
+QLabel{
+font: 10pt &quot;MS Gothic&quot;;
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_3">
+    <item row="0" column="0">
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QWidget" name="widgetlinedit" native="true">
+          <property name="minimumSize">
+           <size>
+            <width>650</width>
+            <height>200</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border: 2px solid balck;</string>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_2">
+           <item row="2" column="0">
+            <widget class="QLabel" name="label_3">
+             <property name="text">
+              <string>Submit Date</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="3">
+            <widget class="QLineEdit" name="lineEdit_submitdate"/>
+           </item>
+           <item row="3" column="0">
+            <widget class="QLabel" name="label_4">
+             <property name="text">
+              <string>Complete Status</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="0">
+            <widget class="QLabel" name="label">
+             <property name="text">
+              <string>Project Name</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="3">
+            <widget class="QLineEdit" name="lineEdit_projectname">
+             <property name="minimumSize">
+              <size>
+               <width>500</width>
+               <height>0</height>
+              </size>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="3">
+            <widget class="QComboBox" name="comboBox_completestatus">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>69</width>
+               <height>16777215</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border: 2px solid grey;
+border-radius: 2px 2px;</string>
+             </property>
+             <item>
+              <property name="text">
+               <string>complete</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>pending</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item row="1" column="3">
+            <widget class="QLineEdit" name="lineEdit_price"/>
+           </item>
+           <item row="1" column="0">
+            <widget class="QLabel" name="label_2">
+             <property name="text">
+              <string>Price</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <spacer name="horizontalSpacer_2">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="groupBox">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>250</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="title">
+           <string>Options</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignHCenter|Qt::AlignTop</set>
+          </property>
+          <property name="flat">
+           <bool>true</bool>
+          </property>
+          <layout class="QGridLayout" name="gridLayout">
+           <item row="0" column="0">
+            <widget class="QPushButton" name="pushButton_confirm">
+             <property name="text">
+              <string>Confirm</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="0">
+            <widget class="QPushButton" name="pushButton_cancel">
+             <property name="text">
+              <string>Cancel</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="QPushButton" name="pushButton_delete">
+             <property name="text">
+              <string>Delete</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <widget class="QLabel" name="label_5">
+          <property name="font">
+           <font>
+            <family>MS Gothic</family>
+            <pointsize>10</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+            <underline>true</underline>
+           </font>
+          </property>
+          <property name="text">
+           <string>Project Definition</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QTextEdit" name="textEdit_projectdef">
+          <property name="styleSheet">
+           <string notr="true">font: 10pt &quot;MS PGothic&quot;;</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <tabstops>
+  <tabstop>lineEdit_projectname</tabstop>
+  <tabstop>lineEdit_price</tabstop>
+  <tabstop>lineEdit_submitdate</tabstop>
+  <tabstop>comboBox_completestatus</tabstop>
+  <tabstop>textEdit_projectdef</tabstop>
+  <tabstop>pushButton_confirm</tabstop>
+  <tabstop>pushButton_delete</tabstop>
+  <tabstop>pushButton_cancel</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

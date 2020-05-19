@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>791</width>
+    <height>611</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Project Manager-by Tuhin</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QPushButton { 
+background-color:rgb(51, 153, 255); 
+border: 4px solid white;
+padding: 6px 10px;
+font: 75 12pt &quot;System&quot;;
+}
+#centralwidget{
+border: 2px solid cyan;
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(153, 245, 230, 255), stop:0.09 rgba(220, 246, 236, 255), stop:0.14 rgba(150, 239, 246, 255), stop:0.187702 rgba(73, 187, 241, 255), stop:0.25 rgba(40, 151, 232, 255), stop:0.32 rgba(243, 248, 224, 255), stop:0.385 rgba(162, 249, 213, 237), stop:0.47 rgba(109, 168, 162, 227), stop:0.58 rgba(186, 232, 191, 232), stop:0.65 rgba(255, 255, 255, 255), stop:0.75 rgba(46, 142, 222, 255), stop:0.805 rgba(117, 187, 218, 255), stop:0.86 rgba(175, 254, 231, 255), stop:0.925566 rgba(254, 236, 244, 255), stop:1 rgba(191, 230, 255, 255));
+}
+
+QPushButton:pressed{
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(153, 245, 230, 255), stop:0.09 rgba(220, 246, 236, 255), stop:0.14 rgba(150, 239, 246, 255), stop:0.187702 rgba(73, 187, 241, 255), stop:0.25 rgba(40, 151, 232, 255), stop:0.32 rgba(243, 248, 224, 255), stop:0.385 rgba(162, 249, 213, 237), stop:0.47 rgba(109, 168, 162, 227), stop:0.58 rgba(186, 232, 191, 232), stop:0.65 rgba(255, 255, 255, 255), stop:0.75 rgba(46, 142, 222, 255), stop:0.805 rgba(117, 187, 218, 255), stop:0.86 rgba(175, 254, 231, 255), stop:0.925566 rgba(254, 236, 244, 255), stop:1 rgba(191, 230, 255, 255));
+border: 3px solid white;
+padding: 6px 10px;
+font: 75 16pt &quot;System&quot;;
+}
+
+QTextEdit{
+border:2px dot-dot-dash;
+border-top-style: solid;
+border-color: blue;
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <layout class="QGridLayout" name="gridLayout">
+        <item row="2" column="2">
+         <widget class="QPushButton" name="pushButton_completebytime">
+          <property name="toolTip">
+           <string>Add Project Deadline
+None If not any</string>
+          </property>
+          <property name="text">
+           <string>COMPLETE BY TIME</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="2">
+         <widget class="QPushButton" name="pushButton_completestatus">
+          <property name="minimumSize">
+           <size>
+            <width>121</width>
+            <height>61</height>
+           </size>
+          </property>
+          <property name="toolTip">
+           <string>Increases Project Counter
+Consider Given Details as Your OFFICIAL PROJECT category</string>
+          </property>
+          <property name="text">
+           <string>Set Complete Status</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="2">
+         <widget class="QPushButton" name="pushButton_editentriest">
+          <property name="toolTip">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Edit Entries in already in the database&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+          <property name="text">
+           <string>Edit Entries</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="0">
+         <widget class="QPushButton" name="pushButton_loadprojectdef">
+          <property name="toolTip">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;Set  a short name to your project&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+          <property name="toolTipDuration">
+           <number>2</number>
+          </property>
+          <property name="text">
+           <string>LOAD PROJECT NAME</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="0">
+         <widget class="QPushButton" name="pushButton_projectprice">
+          <property name="toolTip">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Adds the project price&lt;/p&gt;&lt;p&gt;none if not any&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+          <property name="toolTipDuration">
+           <number>-1</number>
+          </property>
+          <property name="text">
+           <string>DEFINE PROJECT PRICE</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0">
+         <widget class="QPushButton" name="pushButton_addproject">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="toolTip">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ff0000;&quot;&gt;PRESS THIS AT THE END&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#000000;&quot;&gt;TO ADD THE PROJECT TO THE RECORDS&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+          <property name="text">
+           <string>ADD PROJECT</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_addprojdef">
+        <property name="toolTip">
+         <string>Add Written Definition To Records</string>
+        </property>
+        <property name="text">
+         <string>ADD PROJECT
+DEFINITION</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QTextEdit" name="textEdit_projectdefinition">
+        <property name="font">
+         <font>
+          <pointsize>11</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgba(255,255,255,200);</string>
+        </property>
+        <property name="html">
+         <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2';&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>791</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuMenu">
+    <property name="title">
+     <string>Menu</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="actionClose_File"/>
+    <addaction name="actionExplore"/>
+    <addaction name="actionReport"/>
+   </widget>
+   <addaction name="menuMenu"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionCopy_Text">
+   <property name="text">
+    <string>Copy Text</string>
+   </property>
+  </action>
+  <action name="actionPaste_Text">
+   <property name="text">
+    <string>Paste Text</string>
+   </property>
+  </action>
+  <action name="actionClose">
+   <property name="text">
+    <string>Close</string>
+   </property>
+  </action>
+  <action name="actionClose_File">
+   <property name="text">
+    <string>Close File</string>
+   </property>
+  </action>
+  <action name="actionDecrease_Project_Counter">
+   <property name="text">
+    <string>Decrease Project Counter</string>
+   </property>
+  </action>
+  <action name="actionExplore">
+   <property name="text">
+    <string>Explore</string>
+   </property>
+  </action>
+  <action name="actionReport">
+   <property name="text">
+    <string>Report</string>
+   </property>
+  </action>
+ </widget>
+ <tabstops>
+  <tabstop>textEdit_projectdefinition</tabstop>
+  <tabstop>pushButton_projectprice</tabstop>
+  <tabstop>pushButton_loadprojectdef</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
