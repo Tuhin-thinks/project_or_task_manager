@@ -5,6 +5,18 @@ Python Project To Manage Some Paid Projects For Freelancers Like Me.
 - Add all of your projects into one place
 - Store the detail about the projects together
 - Edit and update the details, with the help of the software very easily.
+- Explore Option added to browse through different options
+  - show pending jobs
+  - show total worth of all pending jobs
+  - show last project submission
+  - Nearest Submission Date
+  - Project with Maximum time requirement
+  - Show Personal projects
+  - Show Highest Individual Worth Project
+  - Show Lowest Individual Worth Project
+  - Create Report of all pending Jobs
+  - Create Report of all Jobs
+  - Reinitialize Project ID's
 - Develop the software to add more windows and more intel. to the application.
 
 ## Requirements:
