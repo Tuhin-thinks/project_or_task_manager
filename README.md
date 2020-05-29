@@ -30,4 +30,4 @@ Python Project To Manage Some Paid Projects For Freelancers Like Me.
 - Threading to manage large amount of data in the database.
 - Attractive modern looking application using CSS type of styling in PyQt5 (Qt Designer)
 ## How Does the Opening Window Of The Window will Look Like?
-<img src=./image_files/opening_window.png width="550px">
+<img src="./image_files/Screenshot from 2020-05-30 05-16-02.png" width="550px">
